@@ -98,6 +98,76 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   body {
+         background-color: #202322;
+         color: white;
+         font-size: 16px;
+       }
+
+/* Header*/
+
+.logo {
+        display: flex;
+        justify-content: center;
+      }
+
+hr {color: #3a3a3a;}
+
+nav { display: flex;
+      justify-content: center;
+    }
+
+nav li {
+        list-style: none;
+        width: 100%;
+        background-color: #202322;
+        display: inline;
+       }
+
+nav li a {
+          text-decoration: none;
+          text-transform: uppercase;
+          background-color: #202322;
+          color: white;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          margin-right: 59px;
+         }
+
+
+/* Hero */
+
+.hero {
+      display: flex;
+      flex-flow: row wrap;
+      background-size: cover;
+      background-image: url("../img/mobile/homepage/girl.png");
+      background-repeat: no-repeat;
+      height: 500px;
+      margin: 0;
+      }
+
+.tagline {position: relative;
+          top: 53px;
+          left: 30px;
+          padding-right: 80px;
+          font-family: "Poppins";
+          font-weight: 400;
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -263,4 +333,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
