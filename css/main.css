@@ -331,6 +331,8 @@ nav li a {
 
 /* Tablet */
 
+/* Hero Area */
+
 @media screen and (min-width: 768px)
 
 {
@@ -368,16 +370,34 @@ header {}
         padding: 0;
         }
 
-
-
-
 .subh {font-family: "Poppins"; font-size: 24px;}
 
-#par1 {font-family: "Open Sans"; font-size: 14px; width: 33.2%;}
+#par1 {font-family: "Open Sans"; font-size: 14px; width: 300px;}
 
-.form {width: 37.63%}
+.form {width: 290px;}
 
+.section-a {display: flex; flex-flow: row wrap; justify-content: space-around; height: 235px;}
+
+.column1a {display: flex; width: 300px; flex-flow: column wrap;}
+
+.column2a {display: flex; width: 300px; flex-flow: column wrap;}
+
+#subh2 {padding-left: 20px;}
+
+/* Icons-top Area */
+
+.section-b {display: flex; flex-flow: row wrap; justify-content: space-around; height: 855px;}
+
+.column1b {display: flex; width: 300px; flex-flow: column wrap; flex-basis: 170px;}
+
+.column2b {display: flex; width: 300px; flex-flow: column wrap; flex-basis: 170px;}
 }
+
+/* Review Area */
+
+.head1 {font-size: 36px; font-family: "Poppins";}
+
+.section-c {display: flex; flex-flow: column wrap; justify-content: flex-start; padding-left: 65px; padding-top: 110px; height: 490px; }
 
 
 /* ==========================================================================
