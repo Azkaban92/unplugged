@@ -154,6 +154,7 @@ nav li a {
 .tagline {
           margin-top: 53px;
           margin-left: 30px;
+          width: 81%;
           font-family: "Poppins";
           font-weight: 400;
           font-size: 36px;
@@ -164,13 +165,12 @@ nav li a {
       font-family: "Opens Sans";
       }
 
-.parb {margin-left: 97px;
-      margin-right: 97px;
+.parb {width: 89%;
       text-align: center;
     }
 
 #par1 {
-      margin-left: 60px;
+      width: 83%;
       }
 
 .section-a {
@@ -181,15 +181,18 @@ nav li a {
            }
 
            .subh {
-                 margin-left: 20px;
+
                  margin-top: 0px;
                  padding-top: 30px;
+                 width: 83%;
                  }
 
-          #subh2 {margin-right: 175px;}
+          #subh2 {
+                  width: 83%;
+                  justify-content: flex-start;}
 
 .form {
-        width: 320px;
+        width: 89%;
         height: 52px;
       }
 
@@ -245,9 +248,9 @@ nav li a {
             justify-content: center;
             }
 
-.subh3 {position: relative; right: 80px;}
+.subh3 {width: 82%;}
 
-.parc, .head1 {margin-left: 20px; margin-right: 20px;}
+.parc, .head1 {width: 82%;}
 
 /* Footer */
 
