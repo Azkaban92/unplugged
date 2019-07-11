@@ -272,7 +272,27 @@ nav li a {
 
 .div-icons {text-align: center;}
 
-.section-f {display: flex; justify-content: center;}
+.section-f {
+            display: flex;
+            justify-content: center;
+           }
+
+/* Faq main */
+
+.section-a-faq {
+                background-color: #527158;
+                color: white;
+                padding-bottom: 50px;
+                padding-top: 50px;
+                padding-left: 20px;
+                padding-right: 20px;
+                }
+
+/* About main */
+
+.section-a-about {background-color: #527158; color: white; padding: 50px 20px 50px 20px;}
+
+.section-c-about {margin-top: 0px; background-color: #2a423a; color: white; padding: 50px 20px 50px 20px;}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
