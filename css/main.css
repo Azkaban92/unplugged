@@ -165,8 +165,7 @@ nav li a {
       font-family: "Opens Sans";
       }
 
-.parb {width: 89%;
-      text-align: center;
+.parb {width: 54%;      ;
     }
 
 #par1 {
@@ -269,6 +268,8 @@ nav li a {
       background-color: #527158;
       margin: 0 20px;
       }
+
+.facebook {padding-left: 10px 15px;}
 
 .div-icons {text-align: center;}
 
