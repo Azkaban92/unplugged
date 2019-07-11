@@ -228,11 +228,41 @@ nav li a {
             padding-top: 60px;
           }
 
-.img {
+.img1 {
       width: 75px;
       height: 61px;
       padding-top: 60px;
       }
+
+        .img2 {
+              width: 75px;
+              height: 45px;
+              padding-top: 60px;
+              }
+
+      .img3 {
+            width: 49px;
+            height: 61px;
+            padding-top: 60px;
+            }
+
+      .img4 {
+            width: 75px;
+            height: 61px;
+            padding-top: 60px;
+            }
+
+      .img5 {
+            width: 58px;
+            height: 59px;
+            padding-top: 60px;
+            }
+
+      .img6 {
+            width: 75px;
+            height: 53px;
+            padding-top: 60px;
+            }
 
 .subh2 {
         font-family: "Poppins";
@@ -271,7 +301,7 @@ nav li a {
       margin: 0 20px;
       }
 
-.facebook {padding-left: 10px 15px;}
+.facebook {padding: 10px 15px;}
 
 .div-icons {text-align: center;}
 
