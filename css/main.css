@@ -151,10 +151,9 @@ nav li a {
       padding: 0;
       }
 
-.tagline {position: relative;
-          top: 53px;
-          left: 30px;
-          padding-right: 80px;
+.tagline {
+          margin-top: 53px;
+          margin-left: 30px;
           font-family: "Poppins";
           font-weight: 400;
           font-size: 36px;
