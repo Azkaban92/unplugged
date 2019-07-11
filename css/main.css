@@ -165,7 +165,9 @@ nav li a {
       font-family: "Opens Sans";
       }
 
-.parb {width: 54%;      ;
+.parb {width: 84%;
+      padding: 0px 80px;
+      text-align: center;
     }
 
 #par1 {
