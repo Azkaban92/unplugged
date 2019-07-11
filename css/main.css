@@ -326,6 +326,8 @@ nav li a {
 .section-a-about {background-color: #527158; color: white; padding: 50px 20px 50px 20px;}
 
 .section-c-about {margin-top: 0px; background-color: #2a423a; color: white; padding: 50px 20px 50px 20px;}
+
+.head-about {font-family: "Poppins"; font-size: 30px; font-weight: 400;}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
