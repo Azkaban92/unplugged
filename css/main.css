@@ -97,7 +97,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+/* Mobile */
    body {
          background-color: #202322;
          color: white;
@@ -328,6 +328,58 @@ nav li a {
 .section-c-about {margin-top: 0px; background-color: #2a423a; color: white; padding: 50px 20px 50px 20px;}
 
 .head-about {font-family: "Poppins"; font-size: 30px; font-weight: 400;}
+
+/* Tablet */
+
+@media screen and (min-width: 768px)
+
+{
+
+header {}
+.logo {float: left; padding-bottom: 35px;padding-left: 65px; padding-top: 30px;}
+.navbar  {float: right;}
+.tagline {padding-left: 40px;}
+
+  nav li {
+          list-style: none;
+          width: 100%;
+          background-color: #202322;
+          display: inline;
+         }
+
+  nav li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            background-color: #202322;
+            color: white;
+           }
+
+
+  .hero {
+    clear: both;
+        display: flex;
+        flex-flow: row wrap;
+        background-size: cover;
+        background-image: url("../img/tablet/homepage/girl.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 500px;
+        margin: 0;
+        padding: 0;
+        }
+
+
+
+
+.subh {font-family: "Poppins"; font-size: 24px;}
+
+#par1 {font-family: "Open Sans"; font-size: 14px; width: 33.2%;}
+
+.form {width: 37.63%}
+
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
