@@ -404,15 +404,16 @@ header {}
 
 /* Review Area */
 
-.head1 {font-size: 36px; font-family: "Poppins"; text-align: center;}
+.head1 {font-size: 36px; font-family: "Poppins"; text-align: center; margin-top: 105px;}
 
 
 .column1c {display: flex; flex-flow: column wrap; justify-content: flex-start; align-items: center;}
 .column2c {display: flex; flex-flow: column wrap; justify-content: flex-start; align-items: center;}
-.subh3 {margin: 0;}
+.subh3 {margin: 0; width: 310px;}
 
-.parc {width: 200px; padding-left: 15px; margin: 0; padding-bottom: 40px;}
+.parc {width: 200px; padding-left: 15px; margin: 0; padding-bottom: 40px; width: 310px;}
 
+#group {margin-bottom: 90px;}
 }
 /* ==========================================================================
    Helper classes
