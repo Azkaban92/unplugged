@@ -414,6 +414,14 @@ header {}
 .parc {width: 200px; padding-left: 15px; margin: 0; padding-bottom: 40px; width: 310px;}
 
 #group {margin-bottom: 90px;}
+
+/* Footer Area */
+
+.footer {display: flex;}
+.section-d {width: 50%; padding-top: 100px; padding-bottom: 105px;}
+.section-e {width: 50%; padding-top: 100px; padding-bottom: 105px;}
+
+
 }
 /* ==========================================================================
    Helper classes
