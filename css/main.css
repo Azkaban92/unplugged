@@ -405,11 +405,25 @@ header {}
 
 /* Review Area */
 
-.head1 {font-size: 36px; font-family: "Poppins";}
+.head1 {font-size: 36px; font-family: "Poppins"; padding: 0;}
 
-.section-c {display: flex; flex-flow: row wrap; justify-content: flex-start; padding-left: 65px; padding-top: 110px; height: 490px; }
+.section-c {display: flex; flex-flow: row wrap; justify-content: flex-start; height: 500px; margin: 0; }
 
-.parc {width: 200px; padding-left: 15px;}
+.parc {width: 200px;}
+
+.head1 {margin-top: 110px; margin-left: 52px; margin-bottom: 0px;}
+
+#group {margin-left: 52px; width: 306px; height: 196px; margin-bottom: 50px;}
+
+.parc {padding: 0; margin: 0; width: 310px;}
+
+.subh3 { width: 90%; margin-top: 0px;}
+.section-c {display: flex; flex-flow: row wrap; justify-content: center; align-items: center;}
+.column1c {display:flex; flex-flow: row wrap; padding: 0; margin: 0;}
+.column2c {display: flex; flex-flow: row wrap; padding-bottom: 94px; margin: 0; width: 320px; justify-content: center; align-items: center;}
+.parc {padding-left: 13.5px;}
+
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
