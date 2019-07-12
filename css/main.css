@@ -165,13 +165,19 @@ nav li a {
       font-family: "Opens Sans";
       }
 
-.parb {width: 84%;
+.parb { display: flex;
+        justify-content: center;
+        align-items: center;
       padding: 0px 80px;
       text-align: center;
-    }
+      }
+
+.column1b {display: flex; flex-flow: column nowrap; justify-content: center; align-items: center;}
+.column2b {display: flex; flex-flow: column nowrap; justify-content: center; align-items: center;}
 
 #par1 {
       width: 83%;
+      padding-left: 20px;
       }
 
 .section-a {
@@ -185,6 +191,7 @@ nav li a {
 
                  margin-top: 0px;
                  padding-top: 30px;
+                 padding-left: 20px;
                  width: 83%;
                  }
 
@@ -223,6 +230,7 @@ nav li a {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
+            align-items: center;
             justify-content: center;
             padding-bottom: 70px;
             padding-top: 60px;
@@ -278,6 +286,9 @@ nav li a {
             flex-direction: row;
             justify-content: center;
             }
+
+.column2c {display: flex; flex-flow: row wrap; justify-content: center; align-items: center;}
+
 
 .subh3 {width: 82%;}
 
@@ -388,9 +399,9 @@ header {}
 
 .section-b {display: flex; flex-flow: row wrap; justify-content: center; height: 855px; }
 
-.column1b {display: flex; flex-flow: column wrap; align-items: center; flex-basis: 200px;padding-right: 130px;}
+.column1b {display: flex; width: 300px; flex-flow: column wrap; align-items: center;}
 
-.column2b {display: flex; flex-flow: column wrap; align-items: center; flex-basis: 200px; padding-right: 125px;}
+.column2b {display: flex; width: 300px; flex-flow: column wrap; align-items: center;}
 
 /* Review Area */
 
