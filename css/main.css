@@ -418,27 +418,44 @@ header {}
 /* Footer Area */
 
 .footer {display: flex;}
-.section-d {width: 50%; padding-top: 100px; padding-bottom: 105px;}
-.section-e {width: 50%; padding-top: 100px; padding-bottom: 105px;}
+.section-d {width: 50%; padding-top: 90px;}
+.section-e {width: 50%; padding-top: 90px;}
 
 /* Faq Area */
 
 /* Main Faq Area */
 
-.title-faq {padding-top: 100px;}
-.div-title {}
-.section-a-faq {padding-top: 0;  height: 515px; width: 100%;}
-.flex-container {display: flex; align-items: center; justify-content: space-around;}
-.column1-faq { width: 290px; height: 240px;}
-.column2-faq { width: 290px;; height: 240px;}
+.section-a-faq {display: flex;  width: 100%; height: 515px; align-items: flex-end; justify-content: space-around; align-items: center;}
+.column1-faq {flex-basis: 55%; padding-right: 50px;}
+.column2-faq {flex-basis: 40%;}
+.title-faq {font-family: "Poppins"; font-size: 36px; font-weight: normal; line-height: 48px; width: 100%;}
+
 .question-title {font-family: "Poppins"; font-size: 14px; font-weight: bold; line-height: 18px;}
-.par-faq {font-family: "Open Sans"; font-size: 14px; font-weight: normal; line-height: 18px;}
+.par-faq {font-family: "Open Sans"; font-size: 14px; font-weight: normal; line-height: 18px;+}
 
 /* Footer Faq Area */
 
 .footer {display: flex; height: 100%;}
 .section-d {width: 50%; padding-top: 100px; padding-bottom: 105px;}
 .section-e {width: 50%; padding-top: 100px; padding-bottom: 105px;}
+
+/* About Area */
+
+.section-a-about {margin-top: 100px; background-color: #527158; color: white; padding: 0px 0px 0px 0px;}
+
+.flex-head {display: flex; justify-content: center; width: 100%; padding-left: 30px;}
+
+.p1, .p2 {margin: 0; padding-bottom: 100px;}
+
+.flex-container2 {display:flex; justify-content: center;}
+
+.column1-about {width: 40%;}
+
+.column2-about {width: 40%;}
+
+.section-c-about {margin-top: 0px; background-color: #2a423a; color: white; padding: 50px 20px 50px 20px;}
+
+.head-about {font-family: "Poppins"; font-size: 30px; font-weight: 400;}
 
 }
 /* ==========================================================================
