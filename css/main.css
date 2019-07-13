@@ -517,9 +517,105 @@ header {}
   #email {font-size: 18px; font-style: italic;}
  #btn {font-size: 24px;}
 
+/*working on this */
+
+ .section-b {height: 775px;
+             background-image: url("../img/desktop/homepage/rawpixel-800820-unsplash.png");
+             background-repeat: no-repeat;
+             background-size: cover;
+             display: flex;
+             flex-direction: row;
+             flex-wrap: wrap;
+             align-items: center;
+             justify-content: center;
+             padding-bottom: 70px;
+             padding-top: 60px;
+           }
+
+ .img1 {
+       width: 75px;
+       height: 61px;
+       padding-top: 60px;
+       }
+
+         .img2 {
+               width: 75px;
+               height: 45px;
+               padding-top: 60px;
+               }
+
+       .img3 {
+             width: 49px;
+             height: 61px;
+             padding-top: 60px;
+             }
+
+       .img4 {
+             width: 75px;
+             height: 61px;
+             padding-top: 60px;
+             }
+
+       .img5 {
+             width: 58px;
+             height: 59px;
+             padding-top: 60px;
+             }
+
+       .img6 {
+             width: 75px;
+             height: 53px;
+             padding-top: 60px;
+             }
+
+ .subh2 {
+         font-family: "Poppins";
+         font-size: 30px;
+         font-weight: normal;
+         margin-left: 20px;
+        }
+
+ .section-c {
+             background-color: #2a423a;
+             display: flex;
+             flex-wrap: wrap;
+             flex-direction: row;
+             justify-content: center;
+             }
+
+ .column2c {display: flex; flex-flow: row wrap; justify-content: center; align-items: center;}
 
 
+ .subh3 {width: 82%;}
 
+ .parc, .head1 {width: 82%;}
+
+ /* Footer */
+
+ .section-d {display: flex; flex-flow: column wrap; align-items: center; text-align: center;}
+
+ .section-e {margin-left: auto; margin-right: auto; width: 200px; display: inline;}
+
+ .social-title {text-align: center;}
+
+ .icon {
+       display: inline;
+       text-align: center;
+       border: 1px solid #527158;
+       padding: 10px;
+       border-radius: 50%;
+       background-color: #527158;
+       margin: 0 20px;
+       }
+
+ .facebook {padding: 10px 15px;}
+
+ .div-icons {text-align: center;}
+
+ .section-f {
+             display: flex;
+             justify-content: center;
+            }
 
 
 
