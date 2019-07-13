@@ -221,6 +221,7 @@ nav li a {
         background-color: #e1e2ea;
         margin-left: 20px;
         border: 0;
+        font-style: italic;
        }
 
 .section-b {
@@ -458,6 +459,73 @@ header {}
 .head-about {font-family: "Poppins"; font-size: 30px; font-weight: 400;}
 
 }
+
+/* Desktop Area */
+
+@media screen and (min-width: 1200px)
+
+{
+
+  header {}
+  .logo {float: left; padding-bottom: 35px;padding-left: 65px; padding-top: 30px;}
+  .navbar  {float: right;}
+  .tagline {padding-left: 40px; font-size: 60px; width: 860px;}
+
+    nav li {
+            list-style: none;
+            width: 100%;
+            background-color: #202322;
+            display: inline;
+           }
+
+    nav li a {
+              text-decoration: none;
+              text-transform: uppercase;
+              background-color: #202322;
+              color: white;
+              font-size: 18px;
+             }
+
+             hr {border-color: #202322;}
+
+    .hero {
+      clear: both;
+          display: flex;
+          flex-flow: row wrap;
+          background-size: cover;
+          background-image: url("../img/desktop/homepage/girl.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          height: 600px;
+          margin: 0;
+          padding: 0;
+          }
+
+  .subh {font-family: "Poppins"; font-size: 30px; font-weight: normal;}
+
+  #par1 {font-family: "Open Sans"; font-size: 18px; width: 300px;}
+
+  .form {width: 320px;}
+
+  .section-a {display: flex; flex-flow: row wrap; justify-content: space-around; height: 260px; border-bottom: 30px solid #1a2c2a;}
+
+  .column1a {display: flex; width: 300px; flex-flow: column wrap;}
+
+  .column2a {display: flex; width: 300px; flex-flow: column wrap;}
+
+  #subh2 {padding-left: 30px;}
+  #email {font-size: 18px; font-style: italic;}
+ #btn {font-size: 24px;}
+
+
+
+
+
+
+
+
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
