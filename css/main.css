@@ -363,7 +363,7 @@ nav li a {
 
 .section-c-about {margin-top: 0px; background-color: #2a423a; color: white; padding: 50px 20px 50px 20px; height: 100%;}
 
-.head-about {font-family: "Poppins"; font-size: 30px; font-weight: 400;}
+.head-about {font-family: "Poppins"; font-size: 30px; font-weight: 400; margin-top: 0px; padding-top: 55px;}
 
 }
 /* Tablet */
@@ -466,7 +466,6 @@ nav li a {padding-left: 40px;}
             background-size: cover;
             padding-bottom: 70px;
             padding-top: 60px;
-            height: 855px;
             width: 100%;
           }
 .subh2 {color: white; font-size: 36px; font-family: "Poppins"; font-weight: normal;}
