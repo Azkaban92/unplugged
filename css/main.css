@@ -662,7 +662,7 @@ nav li a {padding-left: 40px;}
 
 /* Section B */
 
-.subh2 {text-align: center; width: 100%; font-size: 36px; font-family: "Poppins"; font-weight: normal; margin-top: 105px;}
+.subh2 {text-align: center; width: 100%; font-size: 36px; font-family: "Poppins"; font-weight: normal; margin-top: 105px; margin-bottom: 100px;}
 
  .section-b {height: 800px;
              background-image: url("../img/desktop/homepage/rawpixel-800820-unsplash.png");
