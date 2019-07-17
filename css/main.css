@@ -359,9 +359,9 @@ nav li a {
 
 /* About main */
 
-.section-a-about {background-color: #527158; color: white; padding: 50px 20px 50px 20px;}
+.section-a-about {background-color: #527158; color: white; padding: 0px 20px 50px 20px; margin-top: 0px;}
 
-.section-c-about {margin-top: 0px; background-color: #2a423a; color: white; padding: 50px 20px 50px 20px;}
+.section-c-about {margin-top: 0px; background-color: #2a423a; color: white; padding: 50px 20px 50px 20px; height: 100%;}
 
 .head-about {font-family: "Poppins"; font-size: 30px; font-weight: 400;}
 
@@ -544,7 +544,7 @@ nav li a {padding-left: 40px;}
 
 /* About Area */
 
-.section-a-about {margin-top: 100px; background-color: #527158; color: white; padding: 0px 0px 0px 0px;}
+.section-a-about {margin-top: 100px; background-color: #527158; color: white; padding: 0px;}
 
 .flex-head {display: flex; justify-content: center; width: 90%; padding-left: 30px;}
 
@@ -791,7 +791,7 @@ nav li a {padding-left: 40px;}
 .footer {display: flex; height: 100%; color: white;}
 .section-d {width: 50%; padding-top: 100px; padding-bottom: 105px;}
 .section-e {width: 50%; padding-top: 100px; padding-bottom: 105px;}
-}
+
 
 /* About Area */
 
@@ -826,9 +826,6 @@ nav li a {padding-left: 40px;}
 .footer {display: flex; height: 100%; color: white;}
 .section-d {width: 50%; padding-top: 100px; padding-bottom: 105px;}
 .section-e {width: 50%; padding-top: 100px; padding-bottom: 105px;}
-}
-
-
 
 
 }
