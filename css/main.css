@@ -470,13 +470,13 @@ nav li a {padding-left: 40px;}
           }
 .subh2 {color: white; font-size: 36px; font-family: "Poppins"; font-weight: normal;}
 
-.par {color: white; font-size: 14px; font-family: "Open Sans";}
+.par {color: white; font-size: 14px; font-family: "Open Sans"; padding-bottom: 50px;}
 
-.section-b {display: flex; flex-flow: row wrap; justify-content: center; height: 855px; }
+.featured-items {display: flex; justify-content: space-around; height: 855px; align-items:center; text-align: center;}
 
-.column1b {display: flex; width: 300px; flex-flow: column wrap; align-items: center;}
+.column1b {width: 27%;}
 
-.column2b {display: flex; width: 300px; flex-flow: column wrap; align-items: center;}
+.column2b { width: 27%;}
 
 /* Review Area */
 
