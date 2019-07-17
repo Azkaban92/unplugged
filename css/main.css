@@ -672,11 +672,13 @@ nav li a {padding-left: 40px;}
              padding-top: 60px;
            }
 
-           .section-b {display: flex; flex-flow: row wrap; justify-content: space-around; height: 855px; }
+           .section-b {display: flex; flex-flow: row wrap; justify-content: space-around; height: 800px; margin-top: 0px;}
 
            .column1b {display: flex; width: 400px; justify-content: space-around; align-items: center; text-align: center; }
 
            .column2b {display: flex; width: 400px;  justify-content: space-around; align-items: center; text-align: center;}
+
+           .parb {padding: 0px 140px 140px 140px; width: 200px;}
 
 
  .img1 {
