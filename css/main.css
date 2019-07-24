@@ -98,30 +98,30 @@ iframe, img {
     margin: 0;
     padding: 0;
   }
-  
+
   /* Header*/
   .logo {
     padding-top: 15px;
     display: flex;
     justify-content: center;
   }
-  
+
   hr {
     color: #3a3a3a;
   }
-  
+
   nav {
     display: flex;
     justify-content: center;
   }
-  
+
   nav li {
     list-style: none;
     width: 100%;
     background-color: #202322;
     display: inline;
   }
-  
+
   nav li a {
     text-decoration: none;
     text-transform: uppercase;
@@ -142,40 +142,39 @@ iframe, img {
     font-weight: 400;
     font-size: 36px;
   }
-  
+
   .par {
     font-size: 0.875rem;
     font-family: "Opens Sans";
   }
-  
+
   #par1 {
     width: 83%;
   }
-  
-  .section-a {
-    background-color: #527158;
-    flex-flow: column wrap;
-  }
-  
+
+  .section-a {display: flex;
+              background-color: #527158;
+              flex-flow: column wrap;
+              }
+
   .subh {
     margin-top: 0px;
     padding-top: 30px;
     padding-left: 20px;
     width: 83%;
   }
-  
+
   .column1a, .column2a {
-    display: flex;
-    flex-flow: column wrap;
+    align-content: center;
     justify-content: center;
     padding-left: 20px;
   }
-  
+
   .form {
     width: 79%;
     height: 52px;
   }
-  
+
   #btn {
     background-color: #2a423a;
     color: white;
@@ -187,7 +186,7 @@ iframe, img {
     border: 0;
     margin-bottom: 55px;
   }
-  
+
   #email {
     color: #afb0b7;
     background-color: #e1e2ea;
@@ -195,7 +194,7 @@ iframe, img {
     border: 0;
     font-style: italic;
   }
-  
+
   .section-b {
     background-image: url("../img/mobile/homepage/rawpixel-800820-unsplash.png");
     background-repeat: no-repeat;
@@ -204,12 +203,12 @@ iframe, img {
     padding-top: 60px;
     text-align: center;
   }
-  
+
   #subh2 {
     width: 83%;
     justify-content: flex-start;
   }
-  
+
   .parb {
     display: flex;
     justify-content: center;
@@ -217,7 +216,7 @@ iframe, img {
     padding: 0px 80px;
     text-align: center;
   }
-  
+
   /* Commento di Matteo */
   /* evita di chiamare le classi img1, img2, ... cerca sempre di dare un contesto */
   /* quindi un nome che le descriva (anche un po' lungho ma esplicativo va bene ) */
@@ -226,44 +225,44 @@ iframe, img {
     width: 75px;
     height: 61px;
   }
-  
+
   .img2 {
     width: 75px;
     height: 45px;
     padding-top: 60px;
   }
-  
+
   .img3 {
     width: 49px;
     height: 61px;
     padding-top: 60px;
   }
-  
+
   .img4 {
     width: 75px;
     height: 61px;
     padding-top: 60px;
   }
-  
+
   .img5 {
     width: 58px;
     height: 59px;
     padding-top: 60px;
   }
-  
+
   .img6 {
     width: 75px;
     height: 53px;
     padding-top: 60px;
   }
-  
+
   .subh2 {
     font-family: "Poppins";
     font-size: 1.875rem;
     font-weight: normal;
     margin-left: 20px;
   }
-  
+
   .section-c {
     background-color: #2a423a;
     display: flex;
@@ -271,7 +270,7 @@ iframe, img {
     flex-direction: row;
     justify-content: center;
   }
-  
+
   .column2c {
     display: flex;
     flex-flow: row wrap;
@@ -282,11 +281,11 @@ iframe, img {
   .subh3 {
     width: 82%;
   }
-  
+
   .parc, .head1 {
     width: 82%;
   }
-  
+
   /* Footer */
   .section-d {
     display: flex;
@@ -294,18 +293,18 @@ iframe, img {
     align-items: center;
     text-align: center;
   }
-  
+
   .section-e {
     margin-left: auto;
     margin-right: auto;
     width: 200px;
     display: inline;
   }
-  
+
   .social-title {
     text-align: center;
   }
-  
+
   .icon {
     display: inline;
     text-align: center;
@@ -315,20 +314,20 @@ iframe, img {
     background-color: #527158;
     margin: 0 0px;
   }
-  
+
   .facebook {
     padding: 10px 15px;
   }
-  
+
   .div-icons {
     text-align: center;
   }
-  
+
   .section-f {
     display: flex;
     justify-content: center;
   }
-  
+
   /* Faq main */
   .section-a-faq {
     background-color: #527158;
@@ -336,7 +335,7 @@ iframe, img {
     /* Commento di Matteo: qui puoi usare la proprietà padding che aggrega tutte e 4 i padding (come sotto) */
     padding: 50px 20px;
   }
-  
+
   /* About main */
   .section-a-about {
     background-color: #527158;
@@ -344,7 +343,7 @@ iframe, img {
     padding: 0px 20px 50px 20px;
     margin-top: 0px;
   }
-  
+
   .section-c-about {
     margin-top: 0px;
     background-color: #2a423a;
@@ -352,7 +351,7 @@ iframe, img {
     padding: 50px 20px 50px 20px;
     height: 100%;
   }
-  
+
   .head-about {
     font-family: "Poppins";
     font-size: 1.875rem;
@@ -371,14 +370,14 @@ iframe, img {
     background-color: #202322;
     font-size: 16px;
   }
-  
+
   .logo {
     float: left;
     padding-bottom: 35px;
     padding-left: 65px;
     padding-top: 30px;
   }
-  
+
   .navbar {
     float: right;
     margin-top: 5px;
@@ -386,15 +385,15 @@ iframe, img {
     margin-right: 65px;
     font-family: "Open Sans";
   }
-  
+
   hr {
     border-color: #202322;
   }
-  
+
   nav li a {
     padding-left: 40px;
   }
-  
+
   .tagline {
     padding-left: 40px;
     color: white;
@@ -403,27 +402,27 @@ iframe, img {
     width: 540px;
     font-weight: normal;
   }
-  
+
   nav li {
     list-style: none;
     width: 100%;
     background-color: #202322;
     display: inline;
   }
-  
+
   nav li a {
     text-decoration: none;
     text-transform: uppercase;
     background-color: #202322;
     color: white;
   }
-  
-  /* Ho lasciato solo le proprietà ca cambiano rispetto a sopra */
+
+  /* Ho lasciato solo le proprietà che cambiano rispetto a sopra */
   .hero {
     clear: both;
     background-image: url("../img/tablet/homepage/girl.png");
   }
-  
+
   /* Section a Area */
   .subh {
     font-family: "Poppins";
@@ -431,7 +430,7 @@ iframe, img {
     color: white;
     font-weight: normal;
   }
-  
+
   #par1 {
     font-family: "Open Sans";
     font-size: 0.875rem;
@@ -439,11 +438,11 @@ iframe, img {
     color: white;
     line-height: 18px;
   }
-  
+
   .form {
     width: 290px;
   }
-  
+
   .section-a {
     display: flex;
     flex-flow: row wrap;
@@ -451,24 +450,26 @@ iframe, img {
     height: 235px;
     background-color: #527158;
   }
-  
+
   .column1a {
     display: flex;
-    width: 300px;
+    width: 40%;
     flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
   }
-  
+
   .column2a {
     display: flex;
-    width: 300px;
+    width: 40%;
     flex-flow: column wrap;
   }
-  
+
   .form {
     width: 89%;
-    height: 52px;
+    height: 20%;
   }
-  
+
   #btn {
     background-color: #2a423a;
     color: white;
@@ -476,19 +477,18 @@ iframe, img {
     font-size: 1.125rem;
     font-family: "Poppins";
     margin-top: 18px;
-    margin-left: 20px;
     border: 0;
-    margin-bottom: 55px;
+    text-align: center;
+    align-self: left;
   }
-  
+
   #email {
     color: #afb0b7;
     background-color: #e1e2ea;
-    margin-left: 20px;
     border: 0;
     font-style: italic;
   }
-  
+
   /* Icons-top Area */
   .section-b {
     background-image: url("../img/tablet/homepage/rawpixel-800820-unsplash.png");
@@ -498,22 +498,23 @@ iframe, img {
     padding-top: 60px;
     width: 100%;
   }
-  
-  .subh2 {
+
+  #subh2 {
     color: white;
-    font-size: 2.25rem;
+    font-size: 1.5rem;
     font-family: "Poppins";
     font-weight: normal;
-    margin: 0px 55px;
+    margin-top: 19.92px;
+    text-align: left;
   }
-  
+
   .par {
     color: white;
     font-size: 0.875rem;
     font-family: "Open Sans";
     padding-bottom: 50px;
   }
-  
+
   .featured-items {
     display: flex;
     justify-content: space-around;
@@ -521,15 +522,15 @@ iframe, img {
     align-items: center;
     text-align: center;
   }
-  
+
   .column1b {
     width: 27%;
   }
-  
+
   .column2b {
     width: 27%;
   }
-  
+
   /* Review Area */
   .head1 {
     font-size: 2.25rem;
@@ -541,35 +542,35 @@ iframe, img {
     color: white;
     font-weight: normal;
   }
-  
+
   .section-c {
     background-color: #2a423a;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
   }
-  
+
   .column1c {
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
     align-items: center;
   }
-  
+
   .column2c {
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
     align-items: center;
   }
-  
+
   .subh3 {
     margin: 0;
     width: 310px;
     color: white;
     font-weight: normal;
   }
-  
+
   .parc {
     width: 200px;
     padding-left: 15px;
@@ -577,7 +578,7 @@ iframe, img {
     padding-bottom: 40px;
     width: 310px;
   }
-  
+
   #group {
     margin-bottom: 90px;
   }
@@ -589,18 +590,18 @@ iframe, img {
     align-items: center;
     text-align: center;
   }
-  
+
   .section-e {
     margin-left: auto;
     margin-right: auto;
     width: 200px;
     display: inline;
   }
-  
+
   .social-title {
     text-align: center;
   }
-  
+
   .icon {
     display: inline;
     text-align: center;
@@ -610,20 +611,20 @@ iframe, img {
     background-color: #527158;
     margin: 0 20px;
   }
-  
+
   .facebook {
     padding: 10px 15px;
   }
-  
+
   .div-icons {
     text-align: center;
   }
-  
+
   .section-f {
     display: flex;
     justify-content: center;
   }
-  
+
   /* Faq Area */
   /* Main Faq Area */
   .section-a-faq {
@@ -634,17 +635,17 @@ iframe, img {
     justify-content: space-around;
     align-items: center;
   }
-  
+
   .column1-faq {
     width: 40%;
     padding-right: 50px;
   }
-  
+
   .column2-faq {
     width: 40%;
     margin-top: 0;
   }
-  
+
   .title-faq {
     font-family: "Poppins";
     font-size: 2.25rem;
@@ -653,21 +654,21 @@ iframe, img {
     width: 500px;
     margin-top: -50px;
   }
-  
+
   .question-title {
     font-family: "Poppins";
     font-size: 0.875rem;
     font-weight: bold;
     line-height: 18px;
   }
-  
+
   .par-faq {
     font-family: "Open Sans";
     font-size: 0.875rem;
     font-weight: normal;
     line-height: 18px;
   }
-  
+
   .section-a-faq {
     background-color: #527158;
     color: white;
@@ -677,7 +678,7 @@ iframe, img {
     padding-right: 20px;
     width: 100%;
   }
-  
+
   /* About Area */
   .section-a-about {
     margin-top: 100px;
@@ -685,73 +686,73 @@ iframe, img {
     color: white;
     padding: 0px;
   }
-  
+
   .flex-head {
     display: flex;
     justify-content: center;
     width: 90%;
     padding-left: 30px;
   }
-  
+
   .p1, .p2 {
     margin: 0;
     padding-bottom: 100px;
   }
-  
+
   .flex-container2 {
     display: flex;
     justify-content: center;
   }
-  
+
   .column1-about {
     width: 40%;
   }
-  
+
   .column2-about {
     width: 40%;
   }
-  
+
   .section-c-about {
     margin-top: 0px;
     background-color: #2a423a;
     color: white;
     padding: 50px 20px 50px 20px;
   }
-  
+
   .head-about {
     font-family: "Poppins";
     font-size: 1.875rem;
     font-weight: 400;
     text-align: center;
   }
-  
+
   /* Contact Area */
   .column-text {
     display: flex;
     justify-content: space-around;
   }
-  
+
   .column1d {
     width: 25%;
   }
-  
+
   .column2d {
     width: 25%;
   }
-  
+
   /* Footer Faq Area */
   .footer {
     display: flex;
     height: 100%;
     color: white;
   }
-  
+
   .section-d {
     width: 50%;
     padding-top: 100px;
     padding-bottom: 105px;
   }
-  
+
   .section-e {
     width: 50%;
     padding-top: 100px;
@@ -762,7 +763,7 @@ iframe, img {
 /* Desktop Area */
 
 @media screen and (min-width: 1200px) {
-  
+
   body {
     background-color: #202322;
     color: white;
@@ -770,7 +771,7 @@ iframe, img {
     margin: 0;
     padding: 0;
   }
-  
+
   .logo {
     float: left;
     padding-bottom: 35px;
@@ -778,11 +779,11 @@ iframe, img {
     padding-top: 30px;
     max-width: 100%;
   }
-  
+
   .navbar {
     float: right;
   }
-  
+
   .tagline {
     padding-left: 40px;
     font-size: 3.75rem;
@@ -790,14 +791,14 @@ iframe, img {
     font-weight: normal;
     font-family: "Poppins";
   }
-  
+
   nav li {
     list-style: none;
     width: 100%;
     background-color: #202322;
     display: inline;
   }
-  
+
   nav li a {
     text-decoration: none;
     text-transform: uppercase;
@@ -806,34 +807,34 @@ iframe, img {
     margin: 0px 50px 0px 0px;
     font-size: 1.125rem;
   }
-  
+
   hr {
     border-color: #202322;
   }
-  
+
   /* Commento di Matteo: Ho preso come esempio la classe hero per spiegarti le media queries - dove puoi evitare di duplicare codice ;) */
   .hero {
     clear: both;
     background-image: url("../img/desktop/homepage/girl.png");
     height: 600px;
   }
-  
+
   .subh {
     font-family: "Poppins";
     font-size: 1.875rem;
     font-weight: normal;
   }
-  
+
   #par1 {
     font-family: "Open Sans";
     font-size: 1.125rem;
     width: 300px;
   }
-  
+
   .form {
     width: 320px;
   }
-  
+
   .section-a {
     display: flex;
     flex-flow: row wrap;
@@ -842,23 +843,23 @@ iframe, img {
     border-bottom: 30px solid #1a2c2a;
     background-color: #527158;
   }
-  
+
   .column1a {
     display: flex;
     width: 300px;
     flex-flow: column wrap;
   }
-  
+
   .column2a {
     display: flex;
     width: 300px;
     flex-flow: column wrap;
   }
-  
+
   #subh2 {
     padding-left: 30px;
   }
-  
+
   #btn {
     background-color: #2a423a;
     color: white;
@@ -871,7 +872,7 @@ iframe, img {
     margin-bottom: 55px;
     height: 50px;
   }
-  
+
   #email {
     color: #afb0b7;
     background-color: #e1e2ea;
@@ -881,7 +882,7 @@ iframe, img {
     font-size: 1.125rem;
     height: 50px;
   }
-  
+
   /* Section B */
   .subh2 {
     text-align: center;
@@ -892,7 +893,7 @@ iframe, img {
     margin-top: 105px;
     margin-bottom: 100px;
   }
-  
+
   .section-b {
     height: 800px;
     background-image: url("../img/desktop/homepage/rawpixel-800820-unsplash.png");
@@ -901,7 +902,7 @@ iframe, img {
     padding-bottom: 70px;
     padding-top: 60px;
   }
-  
+
   .section-b {
     display: flex;
     flex-flow: row wrap;
@@ -909,7 +910,7 @@ iframe, img {
     height: 800px;
     margin-top: 0px;
   }
-  
+
   .column1b {
     display: flex;
     width: 400px;
@@ -917,7 +918,7 @@ iframe, img {
     align-items: center;
     text-align: center;
   }
-  
+
   .column2b {
     display: flex;
     width: 400px;
@@ -925,37 +926,37 @@ iframe, img {
     align-items: center;
     text-align: center;
   }
-  
+
   .parb {
     padding: 0px 100px 140px 140px;
     width: 200px;
   }
-  
+
   .img1 {
     width: 75px;
     height: 61px;
   }
-  
+
   .img2 {
     width: 75px;
     height: 45px;
   }
-  
+
   .img3 {
     width: 49px;
     height: 61px;
   }
-  
+
   .img4 {
     width: 75px;
     height: 61px;
   }
-  
+
   .img5 {
     width: 58px;
     height: 59px;
   }
-  
+
   .img6 {
     width: 75px;
     height: 53px;
@@ -972,17 +973,17 @@ iframe, img {
     color: white;
     font-weight: normal;
   }
-  
+
   .subh3 {
     font-size: 1.875rem;
     font-family: "Poppins";
   }
-  
+
   #group {
     width: 457px;
     height: 300px;
   }
-  
+
   .section-c {
     background-color: #2a423a;
     display: flex;
@@ -990,28 +991,28 @@ iframe, img {
     justify-content: center;
     height: 620px;
   }
-  
+
   .column1c {
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
     align-items: center;
   }
-  
+
   .column2c {
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
     align-items: center;
   }
-  
+
   .subh3 {
     margin: 0;
     width: 310px;
     color: white;
     font-weight: normal;
   }
-  
+
   .parc {
     width: 200px;
     padding-left: 18px;
@@ -1020,14 +1021,14 @@ iframe, img {
     width: 310px;
     font-family: "Open Sans";
   }
-  
+
   /* Footer */
   .footer {
     display: flex;
     height: 100%;
     color: white;
   }
-  
+
   .section-d {
     display: flex;
     flex-flow: column wrap;
@@ -1037,7 +1038,7 @@ iframe, img {
     padding-top: 100px;
     padding-bottom: 105px;
   }
-  
+
   .section-e {
     margin-left: auto;
     margin-right: auto;
@@ -1047,11 +1048,11 @@ iframe, img {
     padding-top: 100px;
     padding-bottom: 105px;
   }
-  
+
   .social-title {
     text-align: center;
   }
-  
+
   .icon {
     display: inline;
     text-align: center;
@@ -1061,20 +1062,20 @@ iframe, img {
     background-color: #527158;
     margin: 0 20px;
   }
-  
+
   .facebook {
     padding: 10px 15px;
   }
-  
+
   .div-icons {
     text-align: center;
   }
-  
+
   .section-f {
     display: flex;
     justify-content: center;
   }
-  
+
   /* Faq area */
   .section-a-faq {
     display: flex;
@@ -1084,17 +1085,17 @@ iframe, img {
     justify-content: space-around;
     align-items: center;
   }
-  
+
   .column1-faq {
     width: 40%;
     padding-right: 50px;
   }
-  
+
   .column2-faq {
     width: 40%;
     margin-top: 0;
   }
-  
+
   .title-faq {
     font-family: "Poppins";
     font-size: 3rem;
@@ -1103,21 +1104,21 @@ iframe, img {
     width: 700px;
     margin-top: -50px;
   }
-  
+
   .question-title {
     font-family: "Poppins";
     font-size: 1.125rem;
     font-weight: bold;
     line-height: 18px;
   }
-  
+
   .par-faq {
     font-family: "Open Sans";
     font-size: 1.125rem;
     font-weight: normal;
     line-height: 18px;
   }
-  
+
   .section-a-faq {
     background-color: #527158;
     color: white;
@@ -1127,40 +1128,40 @@ iframe, img {
     padding-right: 20px;
     width: 100%;
   }
-  
+
   /* Contact Area */
   .column-text {
     display: flex;
     justify-content: space-around;
   }
-  
+
   .column1d {
     width: 25%;
   }
-  
+
   .column2d {
     width: 25%;
   }
-  
+
   /* Footer Faq Area */
   .footer {
     display: flex;
     height: 100%;
     color: white;
   }
-  
+
   .section-d {
     width: 50%;
     padding-top: 100px;
     padding-bottom: 105px;
   }
-  
+
   .section-e {
     width: 50%;
     padding-top: 100px;
     padding-bottom: 105px;
   }
-  
+
   /* About Area */
   .section-a-about {
     margin-top: 100px;
@@ -1170,14 +1171,14 @@ iframe, img {
     padding: 0;
     height: 440px;
   }
-  
+
   .flex-head {
     display: flex;
     justify-content: center;
     width: 90%;
     padding-left: 30px;
   }
-  
+
   .p1, .p2 {
     margin: 0;
     padding-bottom: 100px;
@@ -1185,73 +1186,73 @@ iframe, img {
     font-family: "Open Sans";
     padding-right: 100px;
   }
-  
+
   .flex-container2 {
     display: flex;
     justify-content: center;
   }
-  
+
   .column1-about {
     width: 40%;
   }
-  
+
   .column2-about {
     width: 40%;
   }
-  
+
   .section-c-about {
     margin-top: 0px;
     background-color: #2a423a;
     color: white;
     padding: 50px 20px 50px 20px;
   }
-  
+
   .head-about {
     font-family: "Poppins";
     font-size: 3rem;
     font-weight: 400;
     text-align: center;
   }
-  
+
   .head-about2 {
     font-family: "Poppins";
     font-size: 1.875rem;
     font-weight: 400;
     text-align: center;
   }
-  
+
   .par-about {
     font-size: 1.125rem;
     font-family: "Open Sans";
   }
-  
+
   /* Contact Area */
   .column-text {
     display: flex;
     justify-content: space-around;
   }
-  
+
   .column1d {
     width: 25%;
   }
-  
+
   .column2d {
     width: 25%;
   }
-  
+
   /* Footer Faq Area */
   .footer {
     display: flex;
     height: 100%;
     color: white;
   }
-  
+
   .section-d {
     width: 50%;
     padding-top: 100px;
     padding-bottom: 105px;
   }
-  
+
   .section-e {
     width: 50%;
     padding-top: 100px;
@@ -1376,20 +1377,20 @@ iframe, img {
     box-shadow: none !important;
     text-shadow: none !important;
   }
-  
+
   a,
   a:visited {
     text-decoration: underline;
   }
-  
+
   a[href]:after {
     content: " (" attr(href) ")";
   }
-  
+
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
-  
+
   /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
@@ -1398,17 +1399,17 @@ iframe, img {
   a[href^="javascript:"]:after {
     content: "";
   }
-  
+
   pre {
     white-space: pre-wrap !important;
   }
-  
+
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
-  
+
   /*
      * Printing Tables:
      * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
@@ -1416,19 +1417,19 @@ iframe, img {
   thead {
     display: table-header-group;
   }
-  
+
   tr,
   img {
     page-break-inside: avoid;
   }
-  
+
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3;
   }
-  
+
   h2,
   h3 {
     page-break-after: avoid;
