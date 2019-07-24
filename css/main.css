@@ -150,6 +150,7 @@ iframe, img {
 
   #par1 {
     width: 83%;
+    margin-left: 20px;
   }
 
   .section-a {display: flex;
@@ -185,6 +186,7 @@ iframe, img {
     margin-left: 20px;
     border: 0;
     margin-bottom: 55px;
+    padding: 0px;
   }
 
   #email {
@@ -260,7 +262,7 @@ iframe, img {
     font-family: "Poppins";
     font-size: 1.875rem;
     font-weight: normal;
-    margin-left: 20px;
+
   }
 
   .section-c {
