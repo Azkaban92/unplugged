@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
+.section-b__subh/*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
 
 /* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
 /*
@@ -134,7 +134,7 @@ iframe, img {
     font-family: "Open Sans";
   }
 
-  .tagline {
+  .hero__tagline {
     margin-top: 53px;
     margin-left: 30px;
     width: 81%;
@@ -148,7 +148,7 @@ iframe, img {
     font-family: "Opens Sans";
   }
 
-  #par1 {
+  .section-a__column1a__par {
     width: 83%;
     margin-left: 20px;
   }
@@ -165,7 +165,7 @@ iframe, img {
     width: 83%;
   }
 
-  .column1a, .column2a {
+  .section-a__column1a, .section-a__column2a {
     align-content: center;
     justify-content: center;
     padding-left: 20px;
@@ -176,7 +176,7 @@ iframe, img {
     height: 52px;
   }
 
-  #btn {
+  .section-a__column2a__btn {
     background-color: #2a423a;
     color: white;
     text-transform: uppercase;
@@ -189,7 +189,7 @@ iframe, img {
     padding: 0px;
   }
 
-  #email {
+  .section-a__column2a__email {
     color: #afb0b7;
     background-color: #e1e2ea;
     margin-left: 20px;
@@ -211,7 +211,7 @@ iframe, img {
     justify-content: flex-start;
   }
 
-  .parb {
+  .featured-items__columnb__par {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -258,7 +258,7 @@ iframe, img {
     padding-top: 60px;
   }
 
-  #subh2 {
+  .section-a__column2a__subh {
     font-family: "Poppins";
     font-size: 1.875rem;
     font-weight: normal;
@@ -273,7 +273,7 @@ iframe, img {
     justify-content: center;
   }
 
-  .column2c {
+  .section-c__column2c {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -284,12 +284,12 @@ iframe, img {
     width: 82%;
   }
 
-  .parc, .head1 {
+  .parc, ..section-c__head {
     width: 82%;
   }
 
   /* Footer */
-  .section-d {
+  .footer__section-d {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -303,11 +303,11 @@ iframe, img {
     display: inline;
   }
 
-  .social-title {
+  .section-e__social-title {
     text-align: center;
   }
 
-  .icon {
+  .section-e__icon {
     display: inline;
     text-align: center;
     border: 1px solid #527158;
@@ -321,7 +321,7 @@ iframe, img {
     padding: 10px 15px;
   }
 
-  .div-icons {
+  .section-e__div-icons {
     text-align: center;
   }
 
@@ -396,7 +396,7 @@ iframe, img {
     padding-left: 40px;
   }
 
-  .tagline {
+  .hero__tagline {
     padding-left: 40px;
     color: white;
     font-size: 3rem;
@@ -433,7 +433,7 @@ iframe, img {
     font-weight: normal;
   }
 
-  #par1 {
+  .section-a__column1a__par {
     font-family: "Open Sans";
     font-size: 0.875rem;
     width: 300px;
@@ -453,14 +453,14 @@ iframe, img {
     background-color: #527158;
   }
 
-  .column1a {
+  .section-a__column1a {
     display: flex;
     width: 40%;
     flex-flow: column wrap;
     align-content: center;
   }
 
-  .column2a {
+  .section-a__column2a {
     display: flex;
     width: 40%;
     flex-flow: column wrap;
@@ -471,7 +471,7 @@ iframe, img {
     height: 20%;
   }
 
-  #btn {
+  .section-a__column2a__btn {
     background-color: #2a423a;
     color: white;
     text-transform: uppercase;
@@ -483,16 +483,16 @@ iframe, img {
     align-self: left;
   }
 
-  #email {
+  .section-a__column2a__email {
     color: #afb0b7;
     background-color: #e1e2ea;
     border: 0;
     font-style: italic;
   }
 
-#subh3 {margin-top: 19.92px;}
+.section-a__column1a__subh {margin-top: 19.92px;}
 
-#subh4 {margin-left: 66px; margin-right: 66px; font-size: 36px; line-height: 48px;}
+.section-b__subh {margin-left: 66px; margin-right: 66px; font-size: 36px; line-height: 48px;}
 
   /* Icons-top Area */
   .section-b {
@@ -520,7 +520,7 @@ iframe, img {
     padding-bottom: 50px;
   }
 
-  #par1 {padding: 0px;}
+  .section-a__column1a__par {padding: 0px;}
 
   .featured-items {
     display: flex;
@@ -530,16 +530,16 @@ iframe, img {
     text-align: center;
   }
 
-  .column1b {
+  .featured-items__column1b {
     width: 27%;
   }
 
-  .column2b {
+  .featured-items__column2b {
     width: 27%;
   }
 
   /* Review Area */
-  .head1 {
+  .section-c__head {
     font-size: 2.25rem;
     font-family: "Poppins";
     text-align: center;
@@ -557,14 +557,14 @@ iframe, img {
     justify-content: center;
   }
 
-  .column1c {
+  .section-c__column1c {
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
     align-items: center;
   }
 
-  .column2c {
+  .section-c__column2c {
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
@@ -591,7 +591,7 @@ iframe, img {
   }
 
   /* Footer Area */
-  .section-d {
+  .footer__section-d {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -605,11 +605,11 @@ iframe, img {
     display: inline;
   }
 
-  .social-title {
+  .section-e__social-title {
     text-align: center;
   }
 
-  .icon {
+  .section-e__icon {
     display: inline;
     text-align: center;
     border: 1px solid #527158;
@@ -623,7 +623,7 @@ iframe, img {
     padding: 10px 15px;
   }
 
-  .div-icons {
+  .section-e__div-icons {
     text-align: center;
   }
 
@@ -754,7 +754,7 @@ iframe, img {
     color: white;
   }
 
-  .section-d {
+  .footer__section-d {
     width: 50%;
     padding-top: 100px;
     padding-bottom: 105px;
@@ -791,7 +791,7 @@ iframe, img {
     float: right;
   }
 
-  .tagline {
+  .hero__tagline {
     padding-left: 40px;
     font-size: 3.75rem;
     width: 860px;
@@ -832,7 +832,7 @@ iframe, img {
     font-weight: normal;
   }
 
-  #par1 {
+  .section-a__column1a__par {
     font-family: "Open Sans";
     font-size: 1.125rem;
     width: 300px;
@@ -851,13 +851,13 @@ iframe, img {
     background-color: #527158;
   }
 
-  .column1a {
+  .section-a__column1a {
     display: flex;
     width: 300px;
     flex-flow: column wrap;
   }
 
-  .column2a {
+  .section-a__column2a {
     display: flex;
     width: 300px;
     flex-flow: column wrap;
@@ -867,7 +867,7 @@ iframe, img {
     padding-left: 30px;
   }
 
-  #btn {
+  .section-a__column2a__btn {
     background-color: #2a423a;
     color: white;
     text-transform: uppercase;
@@ -880,7 +880,7 @@ iframe, img {
     height: 50px;
   }
 
-  #email {
+  .section-a__column2a__email {
     color: #afb0b7;
     background-color: #e1e2ea;
     margin-left: 20px;
@@ -918,7 +918,7 @@ iframe, img {
     margin-top: 0px;
   }
 
-  .column1b {
+  .featured-items__column1b {
     display: flex;
     width: 400px;
     justify-content: space-around;
@@ -926,7 +926,7 @@ iframe, img {
     text-align: center;
   }
 
-  .column2b {
+  .featured-items__column2b {
     display: flex;
     width: 400px;
     justify-content: space-around;
@@ -934,7 +934,7 @@ iframe, img {
     text-align: center;
   }
 
-  .parb {
+  .featured-items__columnb__par {
     padding: 0px 100px 140px 140px;
     width: 200px;
   }
@@ -970,7 +970,7 @@ iframe, img {
   }
 
   /* Section C */
-  .head1 {
+  .section-c__head {
     font-size: 2.25rem;
     font-family: "Poppins";
     text-align: center;
@@ -999,14 +999,14 @@ iframe, img {
     height: 620px;
   }
 
-  .column1c {
+  .section-c__column1c {
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
     align-items: center;
   }
 
-  .column2c {
+  .section-c__column2c {
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
@@ -1036,7 +1036,7 @@ iframe, img {
     color: white;
   }
 
-  .section-d {
+  .footer__section-d {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -1056,11 +1056,11 @@ iframe, img {
     padding-bottom: 105px;
   }
 
-  .social-title {
+  .section-e__social-title {
     text-align: center;
   }
 
-  .icon {
+  .section-e__icon {
     display: inline;
     text-align: center;
     border: 1px solid #527158;
@@ -1074,7 +1074,7 @@ iframe, img {
     padding: 10px 15px;
   }
 
-  .div-icons {
+  .section-e__div-icons {
     text-align: center;
   }
 
@@ -1157,7 +1157,7 @@ iframe, img {
     color: white;
   }
 
-  .section-d {
+  .footer__section-d {
     width: 50%;
     padding-top: 100px;
     padding-bottom: 105px;
@@ -1254,7 +1254,7 @@ iframe, img {
     color: white;
   }
 
-  .section-d {
+  .footer__section-d {
     width: 50%;
     padding-top: 100px;
     padding-bottom: 105px;
