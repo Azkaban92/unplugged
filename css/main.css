@@ -284,7 +284,7 @@ iframe, img {
     width: 82%;
   }
 
-  .parc, ..section-c__head {
+  .parc, .section-c__head {
     width: 82%;
   }
 
@@ -314,7 +314,7 @@ iframe, img {
     padding: 10px;
     border-radius: 50%;
     background-color: #527158;
-    margin: 0 0px;
+    margin: 0px;
   }
 
   .facebook {
@@ -480,7 +480,7 @@ iframe, img {
     margin-top: 18px;
     border: 0;
     text-align: center;
-    align-self: left;
+
   }
 
   .section-a__column2a__email {
