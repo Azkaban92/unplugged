@@ -273,6 +273,13 @@ iframe, img {
     justify-content: center;
   }
 
+.section-b__subh {margin-left: auto;
+                  margin-right: auto;
+                  text-align: left;
+                  width: 70.72%;}
+
+
+
   .section-c__column2c {
     display: flex;
     flex-flow: row wrap;
@@ -569,6 +576,7 @@ iframe, img {
     flex-flow: column wrap;
     justify-content: flex-start;
     align-items: center;
+    margin-left: 20px;
   }
 
   .subh3 {
@@ -580,7 +588,6 @@ iframe, img {
 
   .parc {
     width: 200px;
-    padding-left: 15px;
     margin: 0;
     padding-bottom: 40px;
     width: 310px;
@@ -720,16 +727,18 @@ iframe, img {
   }
 
   .section-c-about {
-    margin-top: 0px;
     background-color: #2a423a;
     color: white;
-    padding: 50px 20px 50px 20px;
+    padding-bottom: 105px;
   }
 
   .head-about {
     font-family: "Poppins";
     font-size: 1.875rem;
     font-weight: 400;
+    padding-top: 105px;
+    margin: 0;
+    margin-bottom: 40px;
     text-align: center;
   }
 
@@ -874,7 +883,6 @@ iframe, img {
     font-size: 1.5rem;
     font-family: "Poppins";
     margin-top: 18px;
-    margin-left: 20px;
     border: 0;
     margin-bottom: 0px;
     height: 50px;
@@ -883,7 +891,6 @@ iframe, img {
   .section-a__column2a__email {
     color: #afb0b7;
     background-color: #e1e2ea;
-    margin-left: 20px;
     border: 0;
     font-style: italic;
     font-size: 1.125rem;
@@ -908,6 +915,8 @@ iframe, img {
     background-size: cover;
     padding-bottom: 70px;
     padding-top: 60px;
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
 
   .section-b {
@@ -1011,6 +1020,7 @@ iframe, img {
     flex-flow: column wrap;
     justify-content: flex-start;
     align-items: center;
+    margin-left: 20px;
   }
 
   .subh3 {
@@ -1022,8 +1032,7 @@ iframe, img {
 
   .parc {
     width: 200px;
-    padding-left: 18px;
-    margin: 0;
+    margin-top: 20px;
     padding-bottom: 40px;
     width: 310px;
     font-family: "Open Sans";
