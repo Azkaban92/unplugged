@@ -75,9 +75,14 @@ iframe, img {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* Mobile */
+   body {
+     background-color: #202322;
+     color: white;
+     font-size: 16px;
+     margin: 0;
+     padding: 0;
+   }
 
-/* Commento di Matteo: ho preso come esempio la classe hero per spiegarti le media queries - dove puoi evitare di duplicare codice ;) */
 .hero {
   display: flex;
   flex-flow: row wrap;
@@ -86,18 +91,27 @@ iframe, img {
   background-repeat: no-repeat;
   background-position: center;
   height: 500px;
-  margin: 0;
-  padding: 0;
 }
 
+.section-a__column2a__btn {
+  background-color: #2a423a;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Poppins";
+  margin-top: 18px;
+  border: 0;
+}
+
+.section-a__column2a__email {
+  color: #afb0b7;
+  background-color: #e1e2ea;
+  border: 0;
+  font-style: italic;
+}
+
+/* Mobile */
+
 @media screen and (max-width: 767px) {
-  body {
-    background-color: #202322;
-    color: white;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-  }
 
   /* Header*/
   .logo {
@@ -107,7 +121,7 @@ iframe, img {
   }
 
   hr {
-    color: #3a3a3a;
+    border-color: #3a3a3a;
   }
 
   nav {
@@ -177,25 +191,16 @@ iframe, img {
   }
 
   .section-a__column2a__btn {
-    background-color: #2a423a;
-    color: white;
-    text-transform: uppercase;
     font-size: 1.125rem;
-    font-family: "Poppins";
-    margin-top: 18px;
     margin-left: 20px;
-    border: 0;
     margin-bottom: 55px;
-    padding: 0px;
   }
 
   .section-a__column2a__email {
-    color: #afb0b7;
-    background-color: #e1e2ea;
     margin-left: 20px;
-    border: 0;
-    font-style: italic;
   }
+
+  /* Section B */
 
   .section-b {
     background-image: url("../img/mobile/homepage/rawpixel-800820-unsplash.png");
@@ -375,23 +380,15 @@ iframe, img {
 /* Hero Area */
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  body {
-    background-color: #202322;
-    font-size: 16px;
-  }
 
   .logo {
     float: left;
-    padding-bottom: 35px;
-    padding-left: 65px;
-    padding-top: 30px;
+    padding: 30px 0 35px 65px;
   }
 
   .navbar {
     float: right;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    margin-right: 65px;
+    margin: 5px 65px 20px 0;
     font-family: "Open Sans";
   }
 
@@ -479,27 +476,17 @@ iframe, img {
   }
 
   .section-a__column2a__btn {
-    background-color: #2a423a;
-    color: white;
-    text-transform: uppercase;
     font-size: 1.125rem;
-    font-family: "Poppins";
-    margin-top: 18px;
-    border: 0;
     text-align: center;
 
   }
 
-  .section-a__column2a__email {
-    color: #afb0b7;
-    background-color: #e1e2ea;
-    border: 0;
-    font-style: italic;
-  }
-
 .section-a__column1a__subh {margin-top: 19.92px;}
 
-.section-b__subh {margin-left: 66px; margin-right: 66px; font-size: 36px; line-height: 48px;}
+.section-b__subh {margin-left: 66px;
+                  margin-right: 66px;
+                  font-size: 36px;
+                  line-height: 48px;}
 
   /* Icons-top Area */
   .section-b {
@@ -580,7 +567,7 @@ iframe, img {
   }
 
   .subh3 {
-    margin: 0;
+    margin-bottom: 10px;
     width: 310px;
     color: white;
     font-weight: normal;
@@ -780,14 +767,6 @@ iframe, img {
 
 @media screen and (min-width: 1200px) {
 
-  body {
-    background-color: #202322;
-    color: white;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-  }
-
   .logo {
     float: left;
     padding-bottom: 35px;
@@ -877,22 +856,13 @@ iframe, img {
   }
 
   .section-a__column2a__btn {
-    background-color: #2a423a;
-    color: white;
-    text-transform: uppercase;
     font-size: 1.5rem;
-    font-family: "Poppins";
-    margin-top: 18px;
     border: 0;
     margin-bottom: 0px;
     height: 50px;
   }
 
   .section-a__column2a__email {
-    color: #afb0b7;
-    background-color: #e1e2ea;
-    border: 0;
-    font-style: italic;
     font-size: 1.125rem;
     height: 50px;
   }
